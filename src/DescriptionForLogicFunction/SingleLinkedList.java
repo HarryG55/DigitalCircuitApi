@@ -13,13 +13,24 @@ public class SingleLinkedList {
         public Object data;//每个节点的数据
         public Node next;//每个节点指向下一个节点的连接
         
+        //节点赋值
         public Node(Object data){
             this.data = data;
         }
+        
+        //空构造方法
         Node(){ }
     }
     
-    public SingleLinkedList addNext(SingleLinkedList SLL,Object obj) {   //添加下一个SLL的节点，数据为obj
+    
+    
+    
+    
+    
+    
+    //添加下一个SLL的节点，数据为obj
+    public SingleLinkedList addNext(SingleLinkedList SLL,Object obj) {   
+    	
     	SingleLinkedList sll = new SingleLinkedList();
     	sll=SLL;
      	
@@ -37,6 +48,11 @@ public class SingleLinkedList {
     }
     
     
+    
+    
+    
+    
+    
     //在链表头添加元素
     public Object addHead(Object obj){
         Node newHead = new Node(obj);
@@ -46,9 +62,14 @@ public class SingleLinkedList {
             newHead.next = head;
             head = newHead;
         }
+        //标记链表存在头节点
         size++;
         return obj;
     }
+    
+    
+    
+    
     
     //在链表头删除元素
     public Object deleteHead(){
@@ -57,6 +78,10 @@ public class SingleLinkedList {
         size--;
         return obj;
     }
+    
+    
+    
+    
     
     //查找指定元素，找到了返回节点Node，找不到返回null
     public Node find(Object obj){
@@ -72,6 +97,11 @@ public class SingleLinkedList {
         }
         return null;
     }
+    
+    
+    
+    
+    
     
     //删除指定的元素，删除成功返回true
     public boolean delete(Object value){
@@ -99,10 +129,18 @@ public class SingleLinkedList {
         return true;
     }
     
+    
+    
+    
+    
     //判断链表是否为空
     public boolean isEmpty(){
         return (size == 0);
     }
+    
+    
+    
+    
     
     //显示节点信息
     public void display(){

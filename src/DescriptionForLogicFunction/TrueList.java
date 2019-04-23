@@ -4,7 +4,12 @@ public class TrueList {
 	 * 初始化选项
 	 */
 	static int TrueList[]= new int[16]; //定义一个真值表，参数是输出值，序号是排列号码
-	static int binNum[][]=new int[5][16];
+	static int binNum[][]=new int[5][16];	
+	/*binNum 是什么？？？？？？？*/
+	
+	
+	
+	
 	static String[]simple= {"A","B","C","D","A\'","B\'","C\'","D\'"};
 	
 	public static void  Init()  {		//初始化真值表

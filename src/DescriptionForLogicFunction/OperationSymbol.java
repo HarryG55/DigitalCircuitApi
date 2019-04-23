@@ -1,8 +1,11 @@
 package DescriptionForLogicFunction;
 
+
+//1为真，0为假
+
 public class OperationSymbol {  //运算符
-	int A,B;
-	public static int and(int a,int b) {  //同
+	
+	public static int and(int a,int b) {  //与
 		if(a==1&&b==1) return 1;
 		else return 0;
 	}
@@ -14,7 +17,6 @@ public class OperationSymbol {  //运算符
 		if(a==1) return 0;
 		else return 1;
 	}
-	
 	public static int nand(int a,int b) { //与非
 		return not(and(a,b));
 	}

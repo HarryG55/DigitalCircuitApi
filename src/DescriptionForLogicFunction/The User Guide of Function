@@ -1,0 +1,24 @@
+The User Guide of Function
+
+/***********************************/
+
+SingleLinkedList:
+
+addNext(SingleLinkedList SLL,Object obj)
+
+addHead(Object obj)
+
+deleteHead()
+
+find(Object obj)
+
+delete(Object value)
+
+isEmpty()
+
+display()
+
+
+
+
+/***********************************/

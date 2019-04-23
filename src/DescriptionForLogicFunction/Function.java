@@ -2,10 +2,13 @@ package DescriptionForLogicFunction;
 public class Function {
 	static int num;
 	String simple[][]={{"A","B","C","D"},{"A\'","B\'","C\'","D\'"}};
+	//设立A，B，C，D四个变量，A\表示取非
 	
 	public Function(){
 		num=0;
 	}
+	
+	
 	String Outer[];
 	public static String[] TureListToFunction(int TrueListF[]) {
 		String outer[] = null;
